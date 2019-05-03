@@ -4,3 +4,4 @@ The project was build on Databricks platform and highlights of analysis are incl
 
 Open sourced data about Nasdaq (Composite) stock is obtained from Yahoo Finance API: https://finance.yahoo.com/quote/%5EIXIC/history?p=%5EIXIC
 
+Databricks link for project: https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1610612162130893/4428664661272861/1898739814880760/latest.html
