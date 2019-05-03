@@ -1,0 +1,1 @@
+db.getCollection("products").aggregate([{$match: {UnitPrice: {$gte:50}}},{$lookup: {from: "categories",localField: "CategoryID",foreignField: "CategoryID",as: "results"}},{$project: {_id: 1,ProductID: 1,CategoryID: 1,ProductName: 1,CategoryName: "$results.CategoryName",UnitPrice: 1}},{$sort:{UnitPrice: -1}}]).pretty()
