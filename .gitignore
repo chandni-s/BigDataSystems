@@ -1,0 +1,4 @@
+.DS_Store
+LearningSparkScala/*.idea/*
+LearningSparkScala/*.iml
+LearningSparkScala/out*/*

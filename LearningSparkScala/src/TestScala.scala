@@ -1,9 +1,7 @@
 object TestScala {
 
-  def main(args: Array[String]) : Unit = {
-
+  def main(args: Array[String]): Unit = {
     println("Scala working")
-
   }
 
 }
