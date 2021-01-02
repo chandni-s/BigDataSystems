@@ -1,0 +1,14 @@
+http://localhost:8080/graphql?query={getAllLinks{url}}
+http://localhost:8080/graphql?mutation={createLink{url="www.plswork.com", descr="Testing mutation"}}
+http://localhost:8080/graphql?mutation={createLink{url=%22www.plswork.com%22,descr=%22Testing%22}}
+
+
+{ "query" : "query { shop { id name email } orders(first:1) { edges { node { id } } } }" }
+
+{ "query" : "query { getAllLinks { url } }" }
+
+"mutation {createPost(post: &postInput) { id date author{id name} title content}}"
+
+{ "mutation" : "mutation { createLink { url: "www.fb.com" descr: "testing mutate" } } " } 
+
+{ "mutation" : "mutation createLink { createLink(url: "www.fb.com", descr: "testing mutate") {url description} } " }
